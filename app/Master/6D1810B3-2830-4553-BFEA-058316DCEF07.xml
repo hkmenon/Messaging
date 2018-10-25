@@ -1,0 +1,21 @@
+﻿<master version="5.3" minAllowVersion="5.3" ID="6D1810B3-2830-4553-BFEA-058316DCEF07">
+  <controls>
+    <control controlID="F33EA13D-D514-40E9-9DD5-B4116B48D65C" controlTypeID="Master" x="0" y="0" w="1920" h="54" zOrder="0" masterID="6D1810B3-2830-4553-BFEA-058316DCEF07">
+      <groupChildrenDescriptors>
+        <control controlID="C39C9102-DDB7-442F-9657-05EB70B4E3AC" controlTypeID="__group__" x="0" y="0" w="1920" h="54" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="22C78504-A535-44CF-A798-82E3CCAE4E57" controlTypeID="Gif" x="0" y="0" w="1920" h="54" zOrder="0">
+              <caption>Header</caption>
+            </control>
+            <control controlID="6B1D8473-AF05-4974-BB84-133F2A549850" controlTypeID="Label" x="930" y="35" w="45" h="19" zOrder="1">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Header</text>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

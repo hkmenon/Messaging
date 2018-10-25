@@ -1,0 +1,516 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="5D6F8218-C8A7-41EE-BDD0-77858AC8AE34" platform="MtWeb" defaultW="1920" defaultH="1150" measureW="1920" measureH="1150" mobileScreenScale="0">
+  <controls controlCount="86">
+    <control controlID="F33EA13D-D514-40E9-9DD5-B4116B48D65C" controlTypeID="Master" x="0" y="0" w="1920" h="54" zOrder="0" masterID="6D1810B3-2830-4553-BFEA-058316DCEF07">
+      <groupChildrenDescriptors>
+        <control controlID="0F8FE111-3F2C-4E4D-9D1A-A334C3BF06E8" controlTypeID="__group__" x="0" y="0" w="1920" h="54" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="A196B3A7-3B20-4C81-A0B4-1B736435FA2E" controlTypeID="Gif" x="0" y="0" w="1920" h="54" zOrder="0">
+              <caption>Header</caption>
+            </control>
+            <control controlID="44F416A8-E32D-4961-8B88-F843940E09A8" controlTypeID="Label" x="930" y="35" w="45" h="19" zOrder="1">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Header</text>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="4B3DA8BD-377B-4494-A1B4-90D7A17956ED" controlTypeID="Shape" x="10" y="64" w="1380" h="1040" zOrder="1">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9FEE81BC-67F3-42EC-BA48-6F016600DE4F" controlTypeID="CompositeComboBox" x="63" y="86" w="200" h="24" zOrder="2">
+      <groupChildrenDescriptors>
+        <control controlID="5D541411-B4D3-4330-A888-69BC3448BF93" controlTypeID="TextInput" x="0" y="0" w="177" h="24" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Service+Request+View</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="869EAD2E-5B85-44EC-B942-A01B3E40604F" controlTypeID="Button" x="176" y="0" w="24" h="24" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="4BA7CE8D-555E-4177-89BC-251E271D5799" controlTypeID="List" x="0" y="24" w="200" h="50" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="4658FA98-86F1-49BB-9AF0-D5576F48131D" linkType="ltPageLink" isApplyIncludePage="False" title="Conversation+View">
+              <area shape="0" alt="" ID="{501D3F84-E5E0-4FAF-965A-EDE443C6D966}" coords="(1,1,199,25)"/>
+            </link>
+            <link targetPageID="5D6F8218-C8A7-41EE-BDD0-77858AC8AE34" linkType="ltPageLink" isApplyIncludePage="False" title="Service+Request+View">
+              <area shape="0" alt="" ID="{7CADF27D-BD44-4839-AD06-E7634FE471D3}" coords="(1,25,199,49)"/>
+            </link>
+          </links>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Conversation+View%0D%0AService+Request+View%0D%0A</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>1</selectedIndex>
+          <itemHeight>24</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>24</baseHeight>
+      <font family="Arial"/>
+    </control>
+    <control controlID="49FF02B4-5C3B-42F0-8568-C32270099E6E" controlTypeID="Label" x="23" y="96" w="26" h="14" zOrder="3">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>View</text>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="88E880CE-01DD-4481-948E-36DA1085208C" controlTypeID="Shape" x="20" y="133" w="1360" h="951" zOrder="4">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="565F06FA-64A7-41F1-AA7E-4721445323ED" controlTypeID="Master" x="30" y="143" w="1340" h="93" zOrder="5" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="21EF8CF6-45C5-4D59-9505-7F3E17E315DA" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="53FE99DE-EAA4-4808-8C75-D797609E64D6" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1EF33F26-B357-4DC9-86E7-64EE815DC6A5" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1CD6C2CC-A06E-4D21-B731-A18AF79E3E14" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="C059E3FC-4EE5-401E-BFF9-7FE217601E27" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="132D07A8-6637-4E4B-BCE7-6D1976E6DB22" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="4CF7C6A1-79DB-4D42-827D-F6A7B2E1EA68" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6E3E4931-0727-4A85-852B-39B44D46EB79" controlTypeID="Master" x="30" y="246" w="1340" h="93" zOrder="6" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="B1807FF6-2298-4888-BD93-ACDB3013B276" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="EAA43B82-9BD2-4C62-8E20-192BE4EA253F" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="229C33C3-30D7-46F8-9948-63BC48BBC189" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="BB4B73BE-3043-4472-920B-0234D0CC6B0E" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="C4799741-595D-4034-B33E-BA8F72447806" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="DDC51180-7E11-4DB9-B3FE-5155A30CB58C" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="39D7C843-CA7A-4356-880D-8A04044FF430" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="D9B0FD81-D93A-42C1-B675-0D67104C0472" controlTypeID="Master" x="30" y="349" w="1340" h="93" zOrder="7" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="A59DA12D-BB3C-4F41-A9A3-87CC3DC6D31B" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="5D64474F-AA62-4753-86A4-7EEBA6C52C23" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="42E51380-9476-4578-B81A-B16F0042FCEC" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="D8A75C2B-1E9E-402B-94FD-B5A3122D5032" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="EB3E5D55-5121-4FF0-B386-28C529F2A598" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="B6A43D7C-7D6E-43E2-B65B-5CDEE58BAD29" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="C985F14C-E22F-4A91-80F0-85205B316FCB" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="093C2426-9C4C-4436-A00F-788F79FBCC30" controlTypeID="Master" x="30" y="452" w="1340" h="93" zOrder="8" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="C39BAEEB-2625-4ECF-B4FE-B0FCFD81D582" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="D6718EE5-51CB-4168-9E8A-480E8776A9C8" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="5E850C0C-90EC-4945-B787-1D7A70A21DCB" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="6A7C8A22-9230-4495-A48D-84B5787F34EE" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="78E52E17-8FB9-474C-B41E-C9191A7B34D7" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="4B60B265-D50D-45DF-91C2-85A1F922D13B" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1E0FEC1B-4948-4AA3-9F2A-E8FEDFDC1B8C" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="F9792168-0554-4967-8771-90BAC1D9A189" controlTypeID="Master" x="30" y="555" w="1340" h="93" zOrder="9" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="B0B54D11-B3BC-467C-96FB-B9FE33B3BA65" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="1FFBBE85-581B-43D7-BA27-A1962FEF1F43" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="529B1C8F-FA09-483D-A5B9-52CB37E88923" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1D409281-D796-4AE8-94FF-2606C550498E" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="A1539724-ECB9-487F-90DA-DD299E167C73" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="51BF3334-0202-4B98-83A7-9B0F2A76F9AF" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="E21976BF-18C7-4369-939B-A43814B1C178" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="15DEB853-9710-441F-AFEB-13C595106E4A" controlTypeID="Master" x="30" y="658" w="1340" h="93" zOrder="10" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="9A8841E9-1A58-4300-A571-0A375DEE9062" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="77EEE9ED-8159-4CE9-BEFE-A388A187D0C9" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="CE758BAE-0ABB-4AB4-94DB-83B5D76837BE" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="8FA211EE-8646-4B6D-9F07-7D0681A6E17F" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="46BCE6DA-CEC5-4237-91EC-B9CF6B863325" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="B43308CB-93B8-469A-902A-C52B8DAA8261" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="98A084FB-BD28-4DD6-8209-E3D5DA789E60" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="E0F68390-A98E-4CEE-B692-66766BBF7E0E" controlTypeID="Master" x="30" y="761" w="1340" h="93" zOrder="11" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="87C24C10-603A-4799-AD6C-D94B9B604D42" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="A22AB430-E799-4D65-BD0F-98C1FEE12A22" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="B289BE3A-96AB-454E-8368-A0BDCB5C671D" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="DD2CE939-2381-4501-85B3-6D77BA3067C5" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="896136EE-363A-4E43-B379-46A38B92D107" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="EC7B8B8A-45CF-462B-9834-6E96B039E4C5" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="04BE3948-2225-44CC-A8B1-F8803B99CF8E" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2ACBB575-5F35-471D-A859-1E4CBDEEB24C" controlTypeID="Master" x="30" y="863" w="1340" h="93" zOrder="12" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="8ACB00AB-1783-4BC3-84E8-397857D4359B" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="0C41DD7A-4EAC-4630-9F14-966CA393ACD1" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="9871A268-2F3A-4945-B2D0-62B5ACFB0D20" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="50C3204F-1DCC-479A-8E7C-F47FD69F96A4" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1D83140C-CFD3-40FF-B06F-E8EBF777259F" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="0E286396-D00C-4AB1-9E7F-8EB6BE1A9B52" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="62C942AF-9F00-4A23-970C-4E5C568CA165" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="62642087-E42A-44A2-8C1B-A15A8088638B" controlTypeID="Master" x="30" y="966" w="1340" h="93" zOrder="13" masterID="9444F9AF-7238-4239-97D0-9CAAC7CE1618">
+      <groupChildrenDescriptors>
+        <control controlID="E774B0B2-2BCA-4161-8EDF-DA5DC71F4316" controlTypeID="__group__" x="0" y="0" w="1340" h="93" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="E762408A-EB7E-4762-B989-B3A864C52616" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="C2E4FB44-82B2-469A-A1C2-1B0D1322AA1F" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="1">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CInitial+part+of+problem+description%3E</text>
+              <textSize>12</textSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="1D77D883-CC87-48CF-ADF8-08E92A28B36A" controlTypeID="Label" x="1124" y="14" w="50" h="14" zOrder="2">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3Csender%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="135FA5AA-CC25-4B1D-9CFB-F27CE6F3E1AB" controlTypeID="Label" x="1258" y="14" w="58" h="14" zOrder="3">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CChannel%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="86A59BE1-014E-4DB1-9ADD-EBBD51A0AAFB" controlTypeID="Label" x="1195" y="14" w="39" h="14" zOrder="4">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CDate%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="EED3E0D8-C894-4398-B8E6-71062842846C" controlTypeID="Label" x="10" y="14" w="36" h="14" zOrder="5">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>%3CTitle%3E</text>
+              <textSize>12</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="C0B54AB2-3750-4F1D-99BD-A64474D3C205" controlTypeID="Shape" x="1390" y="64" w="530" h="481" zOrder="14">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="2A4074A2-B6BE-4D29-8A8D-D745517DE098" controlTypeID="Shape" x="1390" y="555" w="530" h="527" zOrder="15">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="EB578920-D20B-4307-86D9-9CB798E2F3E0" controlTypeID="HotSpot" x="30" y="246" w="1340" h="88" zOrder="16">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="3502A5C0-0188-4964-A9DC-C85B754EB734" linkType="ltPageLink" isApplyIncludePage="False" title="SR+Details">
+          <area shape="0" alt="" ID="{C8D50ADF-F83C-4071-85C4-93DD3E5387FE}" coords="(0,0,1340,88)"/>
+        </link>
+      </links>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

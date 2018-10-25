@@ -1,0 +1,96 @@
+﻿<project version="2.9" name="Messaging_Project" ID="F434D5D4-54B7-44B7-A4F2-4427BEDFCFB1">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtWeb" pageSize="(1920,1150)" backgroundColor="4294967295" fontSize="12" fontFamily="Arial" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="Old" ID="C1CFBE0F-7166-4C41-AC88-8FF6C61B4014" expanded="True" status="psGreen" isfolder="True" isshownode="True">
+      <page name="Conversation Details" ID="4BA77358-3B6E-4EAD-AB4F-2772FECB4F97" expanded="True" code="zmdUSAaC9d" thumbCode="YSwwvAvxwO" status="psWhite" isfolder="False" isshownode="True"/>
+      <page name="Basic + Header" ID="1075C29B-D6AA-44ED-AB1E-C53C94B7BD28" expanded="False" code="fk8XCLGjr9" thumbCode="GcfF9Jm6h8" status="psWhite" isfolder="False" isshownode="True"/>
+    </page>
+    <page name="New" ID="B5ACBBFE-582C-4ACF-979B-3EE9511DAC07" expanded="True" status="psGreen" isfolder="True" isshownode="True">
+      <page name="Basic + Header" ID="4658FA98-86F1-49BB-9AF0-D5576F48131D" expanded="True" code="fNH7B9kgYl" thumbCode="fNH7B9kgYl" status="psWhite" isfolder="False" isshownode="True"/>
+      <page name="Basic + SR Headers" ID="5D6F8218-C8A7-41EE-BDD0-77858AC8AE34" expanded="True" code="zEL7WCx6hN" thumbCode="zEL7WCx6hN" status="psWhite" isfolder="False" isshownode="True"/>
+      <page name="Conversation Details -" ID="DB467F42-79DD-4C36-AD26-E6A9DA04C9AB" expanded="True" code="3HVz6Mp829" thumbCode="3HVz6Mp829" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+        </images>
+      </page>
+      <page name="Conversation Details - With Reply" ID="73C81F6E-5598-45F4-81D6-5FD2F598FF6B" expanded="True" code="rJjvHfKxHq" thumbCode="rJjvHfKxHq" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+        </images>
+      </page>
+      <page name="SR Details" ID="3502A5C0-0188-4964-A9DC-C85B754EB734" expanded="True" code="jsQon86aWZ" thumbCode="jsQon86aWZ" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+        </images>
+      </page>
+      <page name="Conversation Details - Response popout" ID="D15B072E-5B6C-4499-B191-F1974106C326" expanded="True" code="KfKaEuE5ek" thumbCode="KfKaEuE5ek" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+        </images>
+      </page>
+      <page name="Conversation Details With SR" ID="1214CEE7-9E31-4A41-BF41-D859902B53FE" expanded="True" code="HpTvxRTKaT" thumbCode="HpTvxRTKaT" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+        </images>
+      </page>
+    </page>
+  </pages>
+  <trash>
+    <page name="Page" ID="CD0959FF-DECC-467C-9694-C04709EBA1DF" expanded="False" code="qmUHdnuG8Q" thumbCode="tLruya8Irz" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Conversation details" ID="0C7E9FEC-D791-4913-B5B2-274A04C58A87" expanded="False" code="AJrklklDei" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+  </trash>
+  <deletes/>
+  <masters>
+    <master name="Page Header" ID="6D1810B3-2830-4553-BFEA-058316DCEF07" code="LwZkekki4Y" status="psWhite" createDate="2018-09-10 10:22:00">
+      <refPages>
+        <page ID="1075C29B-D6AA-44ED-AB1E-C53C94B7BD28" refCount="1"/>
+        <page ID="73C81F6E-5598-45F4-81D6-5FD2F598FF6B" refCount="1"/>
+        <page ID="5D6F8218-C8A7-41EE-BDD0-77858AC8AE34" refCount="1"/>
+        <page ID="3502A5C0-0188-4964-A9DC-C85B754EB734" refCount="1"/>
+        <page ID="4658FA98-86F1-49BB-9AF0-D5576F48131D" refCount="1"/>
+        <page ID="DB467F42-79DD-4C36-AD26-E6A9DA04C9AB" refCount="1"/>
+        <page ID="D15B072E-5B6C-4499-B191-F1974106C326" refCount="1"/>
+        <page ID="CD0959FF-DECC-467C-9694-C04709EBA1DF" refCount="1"/>
+        <page ID="1214CEE7-9E31-4A41-BF41-D859902B53FE" refCount="1"/>
+        <page ID="4BA77358-3B6E-4EAD-AB4F-2772FECB4F97" refCount="1"/>
+      </refPages>
+    </master>
+    <master name="Popout" ID="A09CB745-AE00-44D9-96EE-EBACC66BDF48" code="2p6gsCLgIs" status="psWhite" createDate="2018-09-28 14:47:46">
+      <refPages>
+        <page ID="73C81F6E-5598-45F4-81D6-5FD2F598FF6B" refCount="1"/>
+        <page ID="1214CEE7-9E31-4A41-BF41-D859902B53FE" refCount="2"/>
+        <page ID="3502A5C0-0188-4964-A9DC-C85B754EB734" refCount="1"/>
+        <page ID="D15B072E-5B6C-4499-B191-F1974106C326" refCount="1"/>
+        <page ID="DB467F42-79DD-4C36-AD26-E6A9DA04C9AB" refCount="1"/>
+      </refPages>
+      <images>
+        <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+      </images>
+    </master>
+    <master name="SR Header" ID="9444F9AF-7238-4239-97D0-9CAAC7CE1618" code="Sx3Lb5KldC" status="psWhite" createDate="2018-10-09 10:48:16">
+      <refPages>
+        <page ID="5D6F8218-C8A7-41EE-BDD0-77858AC8AE34" refCount="9"/>
+      </refPages>
+    </master>
+    <master name="Message Header" ID="B57B5427-FBDB-4702-9027-2FDDA29C5C72" code="Sqbpbt6EhI" status="psWhite" createDate="2018-10-09 10:49:13">
+      <refPages>
+        <page ID="4658FA98-86F1-49BB-9AF0-D5576F48131D" refCount="1"/>
+      </refPages>
+    </master>
+    <master name="Narrow SR List" ID="BEA511BD-73AA-4674-B82D-D100DDDA7005" code="OrF9JXb8b6" status="psWhite" createDate="2018-10-09 10:59:22">
+      <refPages>
+        <page ID="3502A5C0-0188-4964-A9DC-C85B754EB734" refCount="8"/>
+      </refPages>
+    </master>
+  </masters>
+  <images>
+    <image key="463CE97955689CF05AAE58821545B5E7.png"/>
+    <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+  </images>
+</project>

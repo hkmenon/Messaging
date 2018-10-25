@@ -1,0 +1,16 @@
+﻿<master version="5.3" minAllowVersion="5.3" ID="A09CB745-AE00-44D9-96EE-EBACC66BDF48">
+  <controls>
+    <control controlID="8F8834C7-BE4A-47D3-8E3C-F0C3974F6DC8" controlTypeID="Master" x="1351" y="1065" w="19" h="19" zOrder="21" masterID="A09CB745-AE00-44D9-96EE-EBACC66BDF48">
+      <groupChildrenDescriptors>
+        <control controlID="A0E331AC-DC46-4924-BF0E-8638B9134BAA" controlTypeID="Image" x="0" y="0" w="19" h="19" zOrder="0">
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="D15B072E-5B6C-4499-B191-F1974106C326" linkType="ltPageLink" isApplyIncludePage="False" title="Conversation+Details+-+Response+popout">
+              <area shape="0" alt="" ID="{908EEA26-4992-497B-A1A3-B7516B32F2A2}" coords="(0,0,19,19)"/>
+            </link>
+          </links>
+          <URL>463CE97955689CF05AAE58821545B5E7.png</URL>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

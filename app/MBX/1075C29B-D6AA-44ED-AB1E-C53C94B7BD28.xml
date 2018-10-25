@@ -1,0 +1,938 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="1075C29B-D6AA-44ED-AB1E-C53C94B7BD28" platform="MtWeb" defaultW="1920" defaultH="1150" measureW="1920" measureH="1150" mobileScreenScale="0">
+  <controls controlCount="131">
+    <control controlID="F33EA13D-D514-40E9-9DD5-B4116B48D65C" controlTypeID="Master" x="0" y="0" w="1400" h="54" zOrder="0" masterID="6D1810B3-2830-4553-BFEA-058316DCEF07">
+      <groupChildrenDescriptors>
+        <control controlID="7F6110C8-6E60-4D0C-94FE-D77472361BBB" controlTypeID="__group__" x="0" y="0" w="1400" h="54" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="EF9DB7C1-2B9F-4795-BB67-46C66A3565E8" controlTypeID="Gif" x="0" y="0" w="1400" h="54" zOrder="0">
+              <caption>Header</caption>
+              <textSize>12</textSize>
+            </control>
+            <control controlID="380EFE30-4C1E-4D22-88AD-2DB58D2BF1B8" controlTypeID="Label" x="678" y="35" w="45" h="19" zOrder="1">
+              <font family="Arial" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Header</text>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+              <textSize>12</textSize>
+            </control>
+          </groupChildrenDescriptors>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="4B3DA8BD-377B-4494-A1B4-90D7A17956ED" controlTypeID="Shape" x="10" y="54" w="1380" h="1404" zOrder="1">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <selectedIndex>-1</selectedIndex>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="9FEE81BC-67F3-42EC-BA48-6F016600DE4F" controlTypeID="CompositeComboBox" x="70" y="86" w="200" h="24" zOrder="2">
+      <groupChildrenDescriptors>
+        <control controlID="5D541411-B4D3-4330-A888-69BC3448BF93" controlTypeID="TextInput" x="0" y="0" w="177" h="24" zOrder="0">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>input</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Conversation+View</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="869EAD2E-5B85-44EC-B942-A01B3E40604F" controlTypeID="Button" x="176" y="0" w="24" h="24" zOrder="1">
+          <locked>True</locked>
+          <canMove>False</canMove>
+          <alias>button</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>0</radius>
+        </control>
+        <control controlID="4BA7CE8D-555E-4177-89BC-251E271D5799" controlTypeID="List" x="0" y="24" w="200" h="50" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>dropDown</alias>
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Conversation+View%0D%0AService+Request+View%0D%0A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <itemHeight>24</itemHeight>
+          <interlaceColor>4294967295</interlaceColor>
+        </control>
+      </groupChildrenDescriptors>
+      <baseHeight>24</baseHeight>
+      <font family="Arial"/>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="49FF02B4-5C3B-42F0-8568-C32270099E6E" controlTypeID="Label" x="29" y="96" w="26" h="14" zOrder="3">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>View</text>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="88E880CE-01DD-4481-948E-36DA1085208C" controlTypeID="Shape" x="20" y="133" w="1360" h="1311" zOrder="4">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <selectedIndex>-1</selectedIndex>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="33752776-81E1-4737-AF0A-B592E271FD7F" controlTypeID="__group__" x="30" y="143" w="1340" h="93" zOrder="5">
+      <groupChildrenDescriptors>
+        <control controlID="B01C71D7-AC25-4288-9E54-B75E6F3DB09D" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="F690CB3A-12C8-4B88-8BA2-B8897526F61E" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="70551B23-86E4-40D7-83D2-039D23692D7D" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="DF805450-9431-49DD-9D5E-7A079BBFEB93" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="F8545737-33B0-433B-AE6E-B8E5101BD9CA" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="71D68BDE-51DD-4356-9C75-88D8B0B58506" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="790D598F-24B3-47CA-88DE-B18DC61FC3D5" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="30AD0EF3-7690-440D-BB1F-A56D22EC7D26" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="7B15964E-E572-420B-890D-9650854D9057" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="16937856-CD5C-41A4-9D49-1AEB94360149" controlTypeID="__group__" x="30" y="241" w="1340" h="93" zOrder="6">
+      <groupChildrenDescriptors>
+        <control controlID="4C0815DA-5210-44DA-AB6B-85389E268439" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="4FD277DF-CFCE-4C2B-A6E9-A5AD60D73733" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="D403B903-4619-4CC2-AC4B-F86DBE9C14DD" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="363E798C-F581-4EDC-A3B4-1980B249946E" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="96F6ECF5-CD45-4BB7-A64E-37E3CF8D027C" controlTypeID="Label" x="181" y="14" w="32" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Social</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="4C6F327E-5801-40D6-83BE-58E1407D6B85" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="CADC7C88-8C77-4B3C-A5DA-BCA6633E2254" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="F7543DE1-C02D-4624-8595-9AE88DE326FC" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="DE175743-4E90-4CFE-9CB0-93CF79EAC37D" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="33D1A6E7-8A36-48CE-AE8A-6FCBCE1E3820" controlTypeID="__group__" x="30" y="337" w="1340" h="93" zOrder="7">
+      <groupChildrenDescriptors>
+        <control controlID="6428932E-E059-476D-A744-86196DC568C1" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="507BDB30-6A90-4E0F-B0C3-F4BE5880B020" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="18CCA00E-0716-40F4-83F2-E803A6739BB9" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="461428BF-CA0D-4F1C-936D-3401A33BEDA2" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B77B8D43-3C88-4F5C-A7DA-EC1C5CCEAAF6" controlTypeID="Label" x="181" y="14" w="93" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Social+Messaging</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="BE74CFAD-2FB1-40FB-8D2C-31450D2777F5" controlTypeID="Label" x="289" y="14" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="A4F91649-A3B9-4F0A-AFEC-22BBC861695F" controlTypeID="Label" x="320" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="998D150D-864C-4B67-908C-F5CF4368F7AB" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="0DBDC264-EE5F-4CFA-9148-746F12BAE20A" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="F0516555-A0B6-48C4-BCC9-9E19F109D6D2" controlTypeID="__group__" x="30" y="434" w="1340" h="93" zOrder="8">
+      <groupChildrenDescriptors>
+        <control controlID="8BCBA20E-F80D-47EF-A4EB-579680944D06" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="C3435923-5476-4C19-9A25-DCD094BF3716" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="C6D28923-BCAB-4E4A-A61E-D248B8D15018" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="5707D2A9-F691-46FF-9108-85507D8A38E9" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="BD4A1A53-C1CB-42A0-9E25-DF3A79CB43EE" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="1D498034-AC12-4256-BD52-38CB18E5CDF6" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="2C1E9C0C-BFD7-42D8-BD7D-C80A80732A78" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="06BCC3BA-4DC1-4C03-9AB8-04FE1A7CA54C" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="9B0815C1-0F2F-4CB5-9689-476978E78515" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="E26DCCFD-064B-4D9D-94F1-41954095D9CF" controlTypeID="__group__" x="30" y="532" w="1340" h="93" zOrder="9">
+      <groupChildrenDescriptors>
+        <control controlID="E631A2C1-8C4E-4ACD-88DA-296EFD6C9030" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="10A409D4-F384-438A-AE4D-2E91E5FCF8B5" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="D63ABE4F-1656-4BFE-AFEA-AFD77CFF61A0" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="A0615E82-0417-4DAC-9E3C-5E9B52CF04B9" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="5C964CE4-A498-45D8-85E0-B4E2D24B3B9F" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="976829D4-664A-4455-B339-F8901F9B6EBA" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="518E451A-0BB5-413C-ABA2-D725176884DA" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="629A6804-A95D-4674-8755-F50B4767AE93" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="9F621A9B-EAD4-4361-AA12-5F466DE2F84B" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="15B58995-A9F1-438C-B992-61905926115A" controlTypeID="__group__" x="30" y="631" w="1340" h="93" zOrder="10">
+      <groupChildrenDescriptors>
+        <control controlID="D1BE0BC1-F79B-48DC-B222-475B12238DC6" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="32480147-E1CF-47EB-BCC6-99836C988210" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="8C26AE7A-CD1D-45CD-9FE3-CFE01A62B845" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="AC536047-B76C-43C6-815C-D47C163CFCB1" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="CEB0EBA2-CB82-4044-BE2F-FFB1E2B90F8E" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="93060546-0B13-4704-8B61-F735887FA8DB" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="87087D33-4994-4DA0-8F6F-E43F2AE74435" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="5C96D454-46B7-4982-B855-2FC5B6F7370C" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="C48299F0-1EE7-4A93-AA18-383A9C499E91" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="10B1CF3C-52D8-4704-93E6-001986DC97FA" controlTypeID="__group__" x="30" y="734" w="1340" h="93" zOrder="11">
+      <groupChildrenDescriptors>
+        <control controlID="A13E3E28-802F-4024-ADF3-70FEF87D7FFD" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="D5C3128E-2915-4893-BDCD-58D6DD0CF502" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B047EFFE-6BB6-4D23-A1E2-3D8203672FD3" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="D6626933-0121-417D-8CD7-A1248E157DCE" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="67097633-2C5C-4256-A651-EBA4DF00C8B8" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="9DA6CEDE-FAD5-4552-BFC1-722BCCEAFE23" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="2604BA86-3809-497A-A1C4-04CDD4A87063" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="D3532B3B-D884-453A-B790-110200CE699B" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="EAC75109-98E8-4BC3-BEF7-CD950EC9AF49" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="EEE6FC7E-BEA2-46EA-AE4A-252AA6774A4F" controlTypeID="__group__" x="30" y="837" w="1340" h="93" zOrder="12">
+      <groupChildrenDescriptors>
+        <control controlID="86FB86B3-63CD-4D4D-8B9E-73AE909ADEE8" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="353EF369-5977-4E5D-A0B7-35C0900F367C" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="33440472-7E75-4FF7-8619-44029B1562A5" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B1AFEABF-4F04-4E0B-91E7-673F2AC4338C" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="A06E6319-9D37-4921-987E-E0643CB58A4F" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="4E76CDA5-E8A9-4107-8A35-A158AE7ED979" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="6B2A49EF-DDE0-4B95-B88F-F038E01A1877" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="0265227E-A1DA-4558-B374-241F11B40128" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="A79D498F-A9FB-4F08-BB98-14AE9A220543" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="8D0282B9-4FC1-4777-8DA2-693570EC4438" controlTypeID="__group__" x="29" y="940" w="1340" h="93" zOrder="13">
+      <groupChildrenDescriptors>
+        <control controlID="92774CB5-B8D4-4F90-A86B-91F2F7EA08F9" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="81F33765-CA91-4696-9981-246A2C81707C" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="E1AA4A75-6BF5-412D-A757-A45C3075B3B7" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="2044BF83-65A7-45CA-8531-3871C3F4E643" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="52415F12-399D-493F-A30A-26006DB18E57" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="EC0C1460-2B49-4BC7-95AF-43D52772A1E7" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="E9FFB6D4-1D47-4451-8262-E853219F8BBC" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B49176DB-408B-4397-A262-5786B8B3E7BB" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="84AD0A78-A630-4F73-976B-DB0B001B6875" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="8DEE1DF2-D256-453E-8BC8-F585BC2820ED" controlTypeID="__group__" x="30" y="1043" w="1340" h="93" zOrder="14">
+      <groupChildrenDescriptors>
+        <control controlID="8F46821F-6057-4A57-BA8A-179940D7D685" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="04A5BF15-A8EF-4BB9-93EF-089DF890D5D2" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="64CDDC7C-8A8F-40A0-B950-DA33EB2BF5D3" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="E3357BE2-25CF-4F08-930B-61FA81567848" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="BC7CCDDC-8C81-497E-982F-EA6DBF484B3C" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="CD9EA7B7-B75F-4D14-A8BD-A5381F2AD7E5" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="7484C212-E4E6-4E3B-8994-7C9EA3886D9C" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="9334237A-E317-4E23-94F1-341F978E70B7" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="40BB6330-C543-4DE3-BD27-CAADEE5F47AC" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="1CB6BFE1-3CB2-47E3-BC1C-93560DAED3E1" controlTypeID="__group__" x="30" y="1146" w="1340" h="93" zOrder="15">
+      <groupChildrenDescriptors>
+        <control controlID="24175F91-4875-416D-854B-1CFDD10C678A" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="6A48A436-4569-41D1-A8D9-44B3B8DECD9D" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="6FA9ADCA-5EAE-4265-B34B-D4F9F014D2EE" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="44AD0318-B4CE-4D45-9E59-52A39534B954" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="084BB771-9EC4-418E-BF42-1CC90F793752" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="D8AAE3EF-AB89-465F-BC3F-68DDECAD160A" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="00C603F2-02C8-4FDC-86E1-867C3F015D2E" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="E998D560-7E7A-46E7-82EA-9F0C282F95FF" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="81CA16E2-1F6D-461F-9EE0-3D78A313696A" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+    <control controlID="239E17DD-D546-4551-BDB4-407B1EC18DD7" controlTypeID="__group__" x="30" y="1249" w="1340" h="93" zOrder="16">
+      <groupChildrenDescriptors>
+        <control controlID="B91FF485-3EE2-457F-9425-A1D66303D48B" controlTypeID="Shape" x="0" y="0" w="1340" h="93" zOrder="0">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+        <control controlID="5CF8B55A-AD49-41BB-9EDB-753BEAA982AA" controlTypeID="Label" x="10" y="14" w="33" h="14" zOrder="1">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>From%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="D087E7A0-7036-4BC7-BF5B-8D81D4C57B29" controlTypeID="Label" x="48" y="14" w="60" h="14" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Customer+1</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="70088777-A0A7-4B77-A22C-30C6188B6303" controlTypeID="Label" x="127" y="14" w="50" h="14" zOrder="3">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Channel%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="BCE4C76D-C4E4-4FD8-8B37-C26E58537359" controlTypeID="Label" x="181" y="14" w="29" h="14" zOrder="4">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Email</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="81223610-8C14-4A63-91D6-52C2E895CC80" controlTypeID="Label" x="221" y="13" w="27" h="14" zOrder="5">
+          <font family="Arial" displayName="Arial+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+          <text>Title%3A</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="C5C999AB-74DB-4908-A708-314BA5804338" controlTypeID="Label" x="254" y="14" w="653" h="14" zOrder="6">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipiscing+elit%2C+sed+do+eiusmod+tempor+incididunt+ut+labore+et+dolore+magna+aliqua.+</text>
+          <textSize>12</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="B1F02723-01DF-4663-8EAB-E2CC4441AB3C" controlTypeID="TextArea" x="10" y="38" w="1200" h="45" zOrder="7">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Aenean+auctor+dictum+purus%2C+et+sollicitudin+leo+ornare+sed.+Morbi+suscipit+ut+orci+eget+varius.+Sed+ut+sollicitudin+dui%2C+ac+viverra+nulla.+Proin+rutrum%2C+mi+vehicula+ornare+sodales%2C+nisi+augue+venenatis+urna%2C+a+dignissim+mauris+elit+non+lectus.+Cras+posuere+urna+vel+purus+elementum+elementum.+Praesent+mollis%2C+ipsum+vel+malesuada+tincidunt%2C+turpis+tortor+finibus+nulla%2C+id+laoreet+neque+quam+vel+massa.+Curabitur+non+ullamcorper+nibh.+Maecenas+venenatis+viverra+est%2C+id+porta+arcu.+Curabitur+a+iaculis+orci%2C+non+iaculis+urna.+Maecenas+ut+maximus+nibh%2C+in+tincidunt+urna.+....</text>
+          <textSize>12</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="5AE1D9EB-4017-4BB1-A541-0B9D4957EBF8" controlTypeID="Shape" x="1311" y="38" w="19" h="20" zOrder="8">
+          <color>4284900966</color>
+          <borderColor>4278190080</borderColor>
+          <borderVisible>False</borderVisible>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>5</text>
+          <textColor>4294967295</textColor>
+          <selectedIndex>-1</selectedIndex>
+          <textSize>12</textSize>
+        </control>
+      </groupChildrenDescriptors>
+      <textSize>12</textSize>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

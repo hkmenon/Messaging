@@ -1,0 +1,27 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="CD0959FF-DECC-467C-9694-C04709EBA1DF" platform="MtWeb" defaultW="1400" defaultH="2000" measureW="1400" measureH="2000" mobileScreenScale="0">
+  <controls controlCount="4">
+    <control controlID="BDD26801-A1E2-4BB1-91AF-9C3103617249" controlTypeID="Master" x="0" y="24" w="1400" h="54" zOrder="0" masterID="6D1810B3-2830-4553-BFEA-058316DCEF07">
+      <groupChildrenDescriptors>
+        <control controlID="9159A4DB-968F-4AF3-AA3A-747AAAB3868C" controlTypeID="__group__" x="0" y="0" w="1400" h="54" zOrder="0">
+          <groupChildrenDescriptors>
+            <control controlID="37EDBA35-2449-4AEE-9FF9-320B1C9621A4" controlTypeID="Gif" x="0" y="0" w="1400" h="54" zOrder="0">
+              <caption>Header</caption>
+            </control>
+            <control controlID="2E51B404-2B4F-4EA4-BC2D-877E3E4B315D" controlTypeID="Label" x="678" y="35" w="45" h="19" zOrder="1">
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Header</text>
+              <lineSpacing>0</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>
